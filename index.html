@@ -790,9 +790,10 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
 
           <div class="offer-ctas">
             <a class="btn btn-accent" id="buy-course" href="https://pay.hotmart.com/X108428929J" target="_blank" rel="noopener">
-              <svg aria-hidden="true"><use href="#i-lock"/></svg><span data-bf="pre post">Inscribirme en Hotmart</span><span data-bf="on" hidden>Inscribirme con 40 % de descuento</span>
+              <svg aria-hidden="true"><use href="#i-lock"/></svg><span class="buy-l" data-bf="pre post">Inscribirme en Hotmart</span><span class="buy-l" data-bf="on" hidden>Inscribirme con 40 % de descuento</span><span class="buy-r" hidden>Reservar mi cupo</span>
             </a>
             <p class="offer-code" data-bf="on" hidden>El cupón <b>BLACK40</b> se aplica solo al abrir el pago.</p>
+            <p class="offer-code" id="buy-soon" hidden>Las inscripciones en Hotmart abren en los próximos días. Reserva tu cupo y te enviamos el enlace de pago con el precio vigente.</p>
             <a class="btn btn-ghost" href="https://wa.me/573057842072" data-wa="Hola Fredy, quiero información sobre el curso «Prevención, abordaje y manejo de la ludopatía».">
               <svg aria-hidden="true"><use href="#i-chat"/></svg>Preguntar por WhatsApp
             </a>
@@ -1163,6 +1164,9 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
   var BF_START = new Date('2026-11-23T00:00:00-05:00').getTime();
   var BF_END = new Date('2026-12-01T00:00:00-05:00').getTime();
   var BUY_URL = 'https://pay.hotmart.com/X108428929J';
+  // Cambiar a true cuando Hotmart apruebe el producto y el pago esté activo.
+  var CHECKOUT_OPEN = false;
+  var RESERVE_TEXT = 'Hola Fredy, quiero reservar mi cupo en el curso «Prevención, abordaje y manejo de la ludopatía». Mi nombre es: ';
   var bfEls = document.querySelectorAll('[data-bf]');
   var bfcd = {};
   document.querySelectorAll('[data-bfcd]').forEach(function (el) { bfcd[el.getAttribute('data-bfcd')] = el; });
@@ -1174,6 +1178,14 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
     if (st !== bfLast) {
       bfEls.forEach(function (el) { el.hidden = el.getAttribute('data-bf').split(' ').indexOf(st) === -1; });
       if (buy) buy.href = st === 'on' ? BUY_URL + '?offDiscount=BLACK40' : BUY_URL;
+      if (buy && !CHECKOUT_OPEN) {
+        buy.href = waUrl(RESERVE_TEXT);
+        buy.querySelectorAll('.buy-l').forEach(function (el) { el.hidden = true; });
+        buy.querySelector('.buy-r').hidden = false;
+        document.querySelectorAll('.offer-code[data-bf]').forEach(function (el) { el.hidden = true; });
+        var soon = document.getElementById('buy-soon');
+        if (soon) soon.hidden = false;
+      }
       bfLast = st;
     }
     if (st !== 'post') {
