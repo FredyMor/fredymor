@@ -49,7 +49,7 @@
       "url": "https://fredymor.github.io/fredymor/",
       "image": "https://fredymor.github.io/fredymor/fredy-moreno.jpg",
       "jobTitle": "Psicólogo",
-      "description": "Psicólogo con enfoque sistémico, Magíster en Asesoría Familiar y Especialista en Edumática, con más de 16 años de experiencia en contextos educativos y clínicos.",
+      "description": "Psicólogo con enfoque sistémico, Magíster en Asesoría Familiar y Especialista en Edumática, con experiencia en contextos educativos y clínicos.",
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad de La Sabana" },
       "knowsAbout": ["Psicología cognitiva y del aprendizaje", "Salud mental y bienestar emocional", "Psicología familiar", "Enfoque sistémico", "Hiperconexión digital"],
       "telephone": "+57 305 784 2072"
@@ -183,6 +183,15 @@ ul,ol{margin:0;padding:0}
 .topbar .wrap{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.35rem 1rem;min-height:46px;padding-block:9px;text-align:center}
 .topbar strong{font-weight:600}
 .topbar a{color:var(--accent);font-weight:600;text-underline-offset:3px}
+.topbar-course{background:var(--accent);color:var(--on-accent)}
+.topbar-course a{color:var(--on-accent);text-decoration:underline}
+.topbar-course .live-dot{background:var(--on-accent);box-shadow:none;animation:none}
+.hero-pill{display:inline-flex;align-items:center;gap:.6em;margin-bottom:18px;padding:.4em .9em .4em .45em;border:1px solid var(--line);border-radius:999px;color:var(--ink);font-size:.9rem;font-weight:500;text-decoration:none;background:var(--surface,transparent);transition:border-color .2s}
+.hero-pill:hover{border-color:var(--accent)}
+.hero-pill b{background:var(--accent);color:var(--on-accent);border-radius:999px;padding:.15em .6em;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+.hero-pill svg{width:16px;height:16px;transition:transform .2s}
+.hero-pill:hover svg{transform:translateX(3px)}
+.offer-more{display:block;text-align:center;font-size:.92rem;font-weight:600;color:var(--brand-text);text-underline-offset:3px}
 .live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:.5em;vertical-align:1px;box-shadow:0 0 0 0 rgba(227,170,85,.6);animation:pulse 2.2s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(227,170,85,.55)}70%{box-shadow:0 0 0 9px rgba(227,170,85,0)}100%{box-shadow:0 0 0 0 rgba(227,170,85,0)}}
 
@@ -532,6 +541,13 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
     <span data-when="after" hidden><strong>Gracias a quienes asistieron a «Agotamiento digital».</strong> Pronto anunciaré la próxima charla.</span>
   </div>
 </div>
+<div class="topbar topbar-course">
+  <div class="wrap">
+    <span data-bf="pre post"><strong>Nuevo curso con certificado:</strong> Prevención, abordaje y manejo de la ludopatía · 60 horas, 100 % online</span>
+    <span data-bf="on" hidden><span class="live-dot" aria-hidden="true"></span><strong>Black Friday:</strong> curso de ludopatía con 40 % de descuento, hasta el 30 de noviembre</span>
+    <a href="#curso">Ver el curso</a>
+  </div>
+</div>
 
 <header class="site-header" id="top">
   <div class="wrap nav">
@@ -567,9 +583,10 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
   <section class="hero" aria-labelledby="hero-title">
     <div class="wrap hero-grid">
       <div>
+        <a class="hero-pill rise" href="#curso"><b>Nuevo</b>Curso de ludopatía con certificado<svg aria-hidden="true"><use href="#i-arrow"/></svg></a><br>
         <p class="eyebrow rise">Psicólogo · Enfoque sistémico</p>
         <h1 id="hero-title" class="rise d1">Psicología <em>en contexto</em>.</h1>
-        <p class="lead rise d2">Soy Fredy Moreno, psicólogo con más de 16 años de experiencia en contextos educativos y clínicos. Acompaño a estudiantes, adultos y familias a entender lo que les pasa dentro de sus relaciones y su entorno, y a construir cambios que se sostienen en el tiempo.</p>
+        <p class="lead rise d2">Soy Fredy Moreno, psicólogo con experiencia en contextos educativos y clínicos. Acompaño a estudiantes, adultos y familias a entender lo que les pasa dentro de sus relaciones y su entorno, y a construir cambios que se sostienen en el tiempo.</p>
         <div class="hero-ctas rise d3">
           <a class="btn btn-primary" href="https://wa.me/573057842072" data-wa="Hola Fredy, vi tu página web y quiero más información sobre tus servicios.">
             <svg aria-hidden="true"><use href="#i-chat"/></svg>Escríbeme por WhatsApp
@@ -632,7 +649,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
   <!-- CREDENCIALES -->
   <section class="creds" aria-label="Formación y experiencia">
     <ul class="wrap creds-grid">
-      <li class="cred"><span class="cred-k">+16 años</span><span class="cred-v">de experiencia en contextos educativos y clínicos</span></li>
+      <li class="cred"><span class="cred-k">Psicólogo</span><span class="cred-v">con experiencia en contextos educativos y clínicos</span></li>
       <li class="cred"><span class="cred-k">Magíster</span><span class="cred-v">en Asesoría Familiar, Universidad de La Sabana</span></li>
       <li class="cred"><span class="cred-k">Especialista</span><span class="cred-v">en Edumática: educación y tecnología</span></li>
       <li class="cred"><span class="cred-k">Sistémico</span><span class="cred-v">enfoque que integra persona, familia y entorno</span></li>
@@ -797,6 +814,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
             <a class="btn btn-ghost" href="https://wa.me/573057842072" data-wa="Hola Fredy, quiero información sobre el curso «Prevención, abordaje y manejo de la ludopatía».">
               <svg aria-hidden="true"><use href="#i-chat"/></svg>Preguntar por WhatsApp
             </a>
+            <a class="offer-more" href="https://go.hotmart.com/X108428929J" target="_blank" rel="noopener">Ver la página del curso en Hotmart</a>
           </div>
 
           <ul class="offer-facts">
@@ -929,7 +947,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
         <div class="about-text">
           <p class="eyebrow">Sobre mí</p>
           <h2 id="sobre-title">Hola, soy Fredy.</h2>
-          <p class="first">Soy psicólogo, Especialista en Edumática y Magíster en Asesoría Familiar de la Universidad de La Sabana. Durante más de 16 años he trabajado con enfoque sistémico en contextos educativos y clínicos.</p>
+          <p class="first">Soy psicólogo, Especialista en Edumática y Magíster en Asesoría Familiar de la Universidad de La Sabana. He trabajado con enfoque sistémico en contextos educativos y clínicos.</p>
           <p>Gran parte de mi camino ha estado en la escuela: acompañando a estudiantes con dificultades para aprender, orientando a jóvenes en sus decisiones vocacionales, trabajando con familias y diseñando programas de prevención y escuelas de padres. También he trabajado en salud mental comunitaria y en atención individual.</p>
           <p>De esa experiencia saqué una convicción: casi nunca se trata de una sola persona. Un estudiante que no rinde, un adulto agotado o una familia que no logra hablar son parte de un sistema que se puede comprender y transformar. Y disfruto especialmente hablar en público y trabajar con grupos, porque ahí las ideas se convierten en práctica.</p>
 
