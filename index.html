@@ -81,6 +81,20 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Curso de formación: Prevención, abordaje y manejo de la ludopatía",
+  "description": "Curso online de 60 horas con certificado para prevenir, detectar, intervenir y acompañar la recuperación del juego problemático, desde un enfoque biopsicosocial y sistémico.",
+  "inLanguage": "es",
+  "url": "https://fredymor.github.io/fredymor/#curso",
+  "image": "https://fredymor.github.io/fredymor/curso/img/producto-hotmart-1200.jpg",
+  "provider": { "@type": "Person", "name": "Fredy Moreno Quintero", "jobTitle": "Psicólogo" },
+  "offers": { "@type": "Offer", "price": "360000", "priceCurrency": "COP", "url": "https://pay.hotmart.com/X108428929J", "category": "Paid" },
+  "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Online", "courseWorkload": "PT60H" }
+}
+</script>
 
 <style>
 /* Plan de diseño
@@ -283,6 +297,45 @@ ul,ol{margin:0;padding:0}
 .modes-label{font-weight:600;margin-right:6px}
 .chip{display:inline-flex;align-items:center;min-height:36px;padding:.35em .95em;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:.92rem;color:var(--ink-2)}
 @media (max-width:1020px){.svc-grid{grid-template-columns:1fr;max-width:680px}}
+
+/* Curso */
+.course-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(40px,6vw,88px);align-items:start}
+.course-title{font-size:clamp(2.3rem,4.4vw,3.6rem);margin-top:16px}
+.course-title em{color:var(--accent-text)}
+.course-lead{margin-top:20px}
+.routes{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:32px}
+.routes li{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px 18px}
+.routes b{display:block;font-family:var(--serif);font-size:1.2rem;font-weight:500;line-height:1.2}
+.routes span{display:block;margin-top:6px;font-size:.93rem;color:var(--ink-2);line-height:1.45}
+.course-h{font-family:var(--sans);font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:var(--ink-3);margin-top:40px}
+.mod-list{list-style:none;columns:2;column-gap:32px;margin-top:14px}
+.mod-list li{break-inside:avoid;display:grid;grid-template-columns:34px 1fr;padding:10px 0;border-top:1px solid var(--line);font-size:.97rem;line-height:1.4}
+.mod-list span{font-family:var(--serif);font-style:italic;color:var(--accent-text)}
+.course-note{margin-top:18px;font-size:.93rem;color:var(--ink-3)}
+.offer{background:var(--surface);border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:var(--shadow);position:sticky;top:110px}
+.offer-img{display:block;width:100%;height:auto;aspect-ratio:1/1}
+.offer-body{padding:clamp(22px,3vw,30px)}
+.bf-flag{display:inline-block;background:var(--band);color:var(--accent);font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.5em .95em;border-radius:999px}
+.price{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px;margin-top:16px}
+.price b{font-family:var(--serif);font-size:2.6rem;font-weight:500;line-height:1;letter-spacing:-.02em}
+.price s{color:var(--ink-3);font-size:1.15rem}
+.price .cur{color:var(--ink-3);font-weight:600}
+.price-sub{font-size:.9rem;color:var(--ink-2);margin-top:8px}
+.bf-cd{margin-top:20px}
+.bf-cd-l{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--ink-3)}
+.bf-cd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}
+.bf-box{background:var(--surface-2);border-radius:12px;padding:10px 4px 8px;text-align:center}
+.bf-n{display:block;font-family:var(--serif);font-size:1.6rem;line-height:1;font-variant-numeric:tabular-nums}
+.bf-u{display:block;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:5px;font-weight:600}
+.offer-ctas{display:grid;gap:10px;margin-top:22px}
+.offer-code{font-size:.88rem;color:var(--ink-2);text-align:center}
+.offer-code b{letter-spacing:.06em;color:var(--ink)}
+.offer-facts{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.offer-facts li{display:flex;gap:8px;align-items:center;font-size:.93rem;color:var(--ink-2)}
+.offer-facts svg{width:18px;height:18px;color:var(--brand-text);flex:none}
+.offer-note{margin-top:16px;font-size:.84rem;color:var(--ink-3);line-height:1.5}
+@media (max-width:980px){.course-grid{grid-template-columns:1fr}.offer{position:static;max-width:520px}}
+@media (max-width:720px){.routes{grid-template-columns:1fr}.mod-list{columns:1}}
 
 /* Charla */
 .band{background:var(--band);color:var(--band-ink)}
@@ -490,6 +543,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
       <ul class="menu">
         <li><a href="#enfoque">Enfoque</a></li>
         <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#curso">Curso</a></li>
         <li><a href="#charla">Charla gratuita</a></li>
         <li><a href="#conferencias">Conferencias</a></li>
         <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -674,6 +728,85 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
         <li class="chip">Virtual por Google Meet</li>
         <li class="chip">Presencial con cita previa</li>
       </ul>
+    </div>
+  </section>
+
+  <!-- CURSO -->
+  <section class="section" id="curso" aria-labelledby="curso-title">
+    <div class="wrap course-grid">
+      <div>
+        <p class="eyebrow">Curso online · 60 horas con certificado</p>
+        <h2 id="curso-title" class="course-title">Prevención, abordaje y manejo de la <em>ludopatía</em></h2>
+        <p class="lead course-lead">Las apuestas ya están en el celular, a un clic y a toda hora. Este curso explica cómo se instala el juego problemático y te da herramientas para prevenirlo, detectarlo a tiempo, contener una crisis y acompañar la recuperación, desde un enfoque biopsicosocial y sistémico.</p>
+
+        <ul class="routes">
+          <li><b>Ruta Personal</b><span>Para quien siente que el juego le está quitando el control.</span></li>
+          <li><b>Ruta Familia</b><span>Para acompañar a alguien sin romper la relación ni la economía del hogar.</span></li>
+          <li><b>Ruta Profesional</b><span>Para docentes, orientadores, psicólogos y líderes comunitarios.</span></li>
+        </ul>
+
+        <h3 class="course-h">13 módulos</h3>
+        <ol class="mod-list">
+          <li><span>00</span>Inducción, encuadre ético y tamizaje inicial</li>
+          <li><span>01</span>Fundamentos: juego, azar y ludopatía</li>
+          <li><span>02</span>Neurobiología y psicología del juego problemático</li>
+          <li><span>03</span>Factores de riesgo, protección y poblaciones vulnerables</li>
+          <li><span>04</span>La industria del juego: diseño, publicidad y entornos digitales</li>
+          <li><span>05</span>Marco legal, ético y de política pública</li>
+          <li><span>06</span>Detección, tamizaje y evaluación</li>
+          <li><span>07</span>Primeros auxilios psicológicos y manejo de crisis</li>
+          <li><span>08</span>Modelos de intervención basados en evidencia</li>
+          <li><span>09</span>Familia y redes de apoyo: enfoque sistémico</li>
+          <li><span>10</span>Prevención en contextos educativos y comunitarios</li>
+          <li><span>11</span>Prevención de recaídas y proyecto de vida</li>
+          <li><span>12</span>Proyecto integrador y evaluación final</li>
+        </ol>
+        <p class="course-note">Incluye casos, simulaciones de entrevista, herramientas descargables y cuatro laboratorios guiados en un entorno de juego simulado, sin dinero real y con protocolo de seguridad.</p>
+      </div>
+
+      <aside class="offer" aria-label="Precio e inscripción al curso">
+        <img class="offer-img" src="curso/img/producto-hotmart-1200.jpg" width="600" height="600" alt="Curso de formación: Prevención, abordaje y manejo de la ludopatía, 60 horas con certificado" loading="lazy">
+        <div class="offer-body">
+          <p class="bf-flag" data-bf="pre">Black Friday · 40 % del 23 al 30 nov.</p>
+          <p class="bf-flag" data-bf="on" hidden>Black Friday · 40 % de descuento</p>
+          <div class="price">
+            <s data-bf="on" hidden>$360.000</s>
+            <b data-bf="pre post">$360.000</b>
+            <b data-bf="on" hidden>$216.000</b>
+            <span class="cur">COP</span>
+          </div>
+          <p class="price-sub">Pago seguro en Hotmart, también en cuotas · Acceso por 12 meses · Garantía de 7 días</p>
+
+          <div class="bf-cd" data-bf="pre on" role="timer" aria-label="Tiempo del Black Friday">
+            <span class="bf-cd-l" data-bf="pre">El descuento empieza en</span>
+            <span class="bf-cd-l" data-bf="on" hidden>El descuento termina en</span>
+            <div class="bf-cd-grid">
+              <div class="bf-box"><span class="bf-n" data-bfcd="d">00</span><span class="bf-u">días</span></div>
+              <div class="bf-box"><span class="bf-n" data-bfcd="h">00</span><span class="bf-u">horas</span></div>
+              <div class="bf-box"><span class="bf-n" data-bfcd="m">00</span><span class="bf-u">min</span></div>
+              <div class="bf-box"><span class="bf-n" data-bfcd="s">00</span><span class="bf-u">seg</span></div>
+            </div>
+          </div>
+
+          <div class="offer-ctas">
+            <a class="btn btn-accent" id="buy-course" href="https://pay.hotmart.com/X108428929J" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-lock"/></svg><span data-bf="pre post">Inscribirme en Hotmart</span><span data-bf="on" hidden>Inscribirme con 40 % de descuento</span>
+            </a>
+            <p class="offer-code" data-bf="on" hidden>El cupón <b>BLACK40</b> se aplica solo al abrir el pago.</p>
+            <a class="btn btn-ghost" href="https://wa.me/573057842072" data-wa="Hola Fredy, quiero información sobre el curso «Prevención, abordaje y manejo de la ludopatía».">
+              <svg aria-hidden="true"><use href="#i-chat"/></svg>Preguntar por WhatsApp
+            </a>
+          </div>
+
+          <ul class="offer-facts">
+            <li><svg aria-hidden="true"><use href="#i-clock"/></svg>60 horas</li>
+            <li><svg aria-hidden="true"><use href="#i-shield"/></svg>Certificado</li>
+            <li><svg aria-hidden="true"><use href="#i-route"/></svg>3 rutas</li>
+            <li><svg aria-hidden="true"><use href="#i-video"/></svg>100 % online</li>
+          </ul>
+          <p class="offer-note">Para mayores de 18 años. Es formación psicoeducativa: no reemplaza diagnóstico ni tratamiento. Si tú o alguien cercano está en crisis, llama a la Línea 106 o al 123.</p>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -951,6 +1084,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
         <p class="f-h">Navegación</p>
         <ul class="f-links">
           <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#curso">Curso de ludopatía</a></li>
           <li><a href="#charla">Charla gratuita</a></li>
           <li><a href="#conferencias">Conferencias</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -960,8 +1094,8 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
       <div>
         <p class="f-h">En construcción</p>
         <div class="soon">
-          <b>Próximamente</b>
-          <p>Cursos con certificado e insignia digital, y un consultorio en línea para agendar y acompañar tu proceso.</p>
+          <b>Ya disponible</b>
+          <p><a href="#curso" style="color:var(--band-ink)">Curso de prevención, abordaje y manejo de la ludopatía</a>. Próximamente: más cursos con certificado y un consultorio en línea.</p>
         </div>
       </div>
     </div>
@@ -1024,6 +1158,34 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
   }
   tick();
   setInterval(tick, 1000);
+
+  // Curso: estado del Black Friday (hora de Colombia)
+  var BF_START = new Date('2026-11-23T00:00:00-05:00').getTime();
+  var BF_END = new Date('2026-12-01T00:00:00-05:00').getTime();
+  var BUY_URL = 'https://pay.hotmart.com/X108428929J';
+  var bfEls = document.querySelectorAll('[data-bf]');
+  var bfcd = {};
+  document.querySelectorAll('[data-bfcd]').forEach(function (el) { bfcd[el.getAttribute('data-bfcd')] = el; });
+  var buy = document.getElementById('buy-course');
+  var bfLast = null;
+  function bfTick() {
+    var now = Date.now();
+    var st = now < BF_START ? 'pre' : (now < BF_END ? 'on' : 'post');
+    if (st !== bfLast) {
+      bfEls.forEach(function (el) { el.hidden = el.getAttribute('data-bf').split(' ').indexOf(st) === -1; });
+      if (buy) buy.href = st === 'on' ? BUY_URL + '?offDiscount=BLACK40' : BUY_URL;
+      bfLast = st;
+    }
+    if (st !== 'post') {
+      var diff = Math.max(0, (st === 'pre' ? BF_START : BF_END) - now);
+      if (bfcd.d) bfcd.d.textContent = Math.floor(diff / 86400000);
+      if (bfcd.h) bfcd.h.textContent = pad(Math.floor(diff / 3600000) % 24);
+      if (bfcd.m) bfcd.m.textContent = pad(Math.floor(diff / 60000) % 60);
+      if (bfcd.s) bfcd.s.textContent = pad(Math.floor(diff / 1000) % 60);
+    }
+  }
+  bfTick();
+  setInterval(bfTick, 1000);
 
   // Menú móvil
   var toggle = document.querySelector('.menu-toggle');
