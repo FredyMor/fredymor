@@ -51,6 +51,7 @@
       "jobTitle": "Psicólogo",
       "description": "Psicólogo con enfoque sistémico, Magíster en Asesoría Familiar y Especialista en Edumática, con experiencia en contextos educativos y clínicos.",
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad de La Sabana" },
+      "memberOf": { "@type": "Organization", "name": "The CPD Group" },
       "knowsAbout": ["Psicología cognitiva y del aprendizaje", "Salud mental y bienestar emocional", "Psicología familiar", "Enfoque sistémico", "Hiperconexión digital"],
       "telephone": "+57 305 784 2072"
     },
@@ -255,7 +256,7 @@ ul,ol{margin:0;padding:0}
 
 /* Credenciales */
 .creds{border-block:1px solid var(--line);background:var(--surface)}
-.creds-grid{display:grid;grid-template-columns:repeat(4,1fr);list-style:none}
+.creds-grid{display:grid;grid-template-columns:repeat(5,1fr);list-style:none}
 .cred{padding:30px 28px 30px 0;display:flex;flex-direction:column;gap:6px}
 .cred + .cred{padding-left:28px;border-left:1px solid var(--line)}
 .cred-k{font-family:var(--serif);font-size:1.6rem;line-height:1.1;font-weight:500}
@@ -266,7 +267,9 @@ ul,ol{margin:0;padding:0}
   .cred + .cred{padding-left:0;border-left:0}
   .cred:nth-child(2n){padding-left:20px;border-left:1px solid var(--line)}
   .cred:nth-child(n+3){border-top:1px solid var(--line)}
+  .cred-cpd{grid-column:1/-1}
 }
+@media (min-width:981px) and (max-width:1180px){.cred-k{font-size:1.4rem}.cred{padding-right:20px}.cred + .cred{padding-left:20px}}
 @media (max-width:420px){.cred-k{font-size:1.35rem}}
 
 /* Secciones */
@@ -392,6 +395,13 @@ ul,ol{margin:0;padding:0}
 .topic-aud span{font-size:.8rem;font-weight:600;color:var(--brand-text);background:var(--brand-soft);border-radius:999px;padding:.25em .75em}
 .formats{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;list-style:none}
 .conf-cta{margin-top:32px}
+.cpd-card{display:flex;align-items:center;gap:20px;margin-top:36px;padding:20px 22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);max-width:560px}
+.cpd-logo{flex:none;width:88px;height:88px;border-radius:50%;background:#FFFFFF;display:grid;place-items:center;box-shadow:0 0 0 1px var(--line)}
+.cpd-logo img{width:76px;height:76px;object-fit:contain}
+.cpd-k{font-size:.74rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:var(--accent-text)}
+.cpd-t{font-family:var(--serif);font-size:1.32rem;line-height:1.2;font-weight:500;margin-top:4px}
+.cpd-v{font-size:.93rem;color:var(--ink-2);line-height:1.5;margin-top:6px}
+@media (max-width:420px){.cpd-card{flex-direction:column;align-items:flex-start}}
 
 /* Proceso */
 .steps{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;padding-top:22px}
@@ -655,6 +665,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
       <li class="cred"><span class="cred-k">Magíster</span><span class="cred-v">en Asesoría Familiar, Universidad de La Sabana</span></li>
       <li class="cred"><span class="cred-k">Especialista</span><span class="cred-v">en Edumática: educación y tecnología</span></li>
       <li class="cred"><span class="cred-k">Sistémico</span><span class="cred-v">enfoque que integra persona, familia y entorno</span></li>
+      <li class="cred cred-cpd"><span class="cred-k">Miembro CPD</span><span class="cred-v">proveedor de formación continua ante The CPD Group</span></li>
     </ul>
   </section>
 
@@ -909,6 +920,14 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
             <svg aria-hidden="true"><use href="#i-chat"/></svg>Solicitar una propuesta
           </a>
         </div>
+        <div class="cpd-card">
+          <span class="cpd-logo"><img src="cpd-group-logo.png" alt="Logo de The CPD Group" width="76" height="76" loading="lazy"></span>
+          <div>
+            <p class="cpd-k">Respaldo en formación continua</p>
+            <p class="cpd-t">Miembro de The CPD Group</p>
+            <p class="cpd-v">Admitido en 2026 como proveedor de formación ante The CPD Group, organismo británico de acreditación de desarrollo profesional continuo (CPD). Los cursos y talleres que cuenten con acreditación CPD lo indicarán de forma expresa.</p>
+          </div>
+        </div>
       </div>
       <ol class="topics">
         <li class="topic"><span class="topic-n">01</span><div><h3>Agotamiento digital y bienestar</h3><p>Hábitos digitales, atención y descanso en la era de las pantallas.</p><div class="topic-aud"><span>Familias</span><span>Docentes</span><span>Empresas</span></div></div></li>
@@ -961,6 +980,7 @@ fieldset.field{border:0;margin:20px 0 0;padding:0;min-width:0}
                 <li><b>Magíster en Asesoría Familiar</b><span>Universidad de La Sabana</span></li>
                 <li><b>Especialista en Edumática</b><span>Educación y tecnologías de la información</span></li>
                 <li><b>Psicólogo</b><span>Ejercicio profesional bajo la Ley 1090 de 2006</span></li>
+                <li><b>Miembro de The CPD Group</b><span>Proveedor de formación continua (CPD), desde 2026</span></li>
               </ul>
             </div>
             <div>
