@@ -401,6 +401,116 @@ article("como-salir-del-estancamiento-personal",
 {VCS_CALL}
 """, "vcs")
 
+article("como-dejar-de-apostar",
+ "Cómo dejar de apostar: un plan de 30 días explicado por un psicólogo",
+ "Si quieres dejar las apuestas y no lo logras solo, este plan de cuatro semanas te explica qué hacer con el dinero, el celular, las ganas y las recaídas.",
+ "2026-11-13", f"""
+<p>Si estás leyendo esto, probablemente ya intentaste parar varias veces. Borraste la aplicación, prometiste que la última apuesta era la última, y a los pocos días volviste. Eso no significa que no tengas voluntad: significa que estás usando la herramienta equivocada. La voluntad sirve para decisiones puntuales; para cambiar una conducta que el cerebro ya automatizó hacen falta condiciones, no promesas. Este plan de 30 días es el que uso en consulta con personas que quieren dejar de apostar y no saben por dónde empezar.</p>
+<h2>Antes de empezar: por qué no puedes "solo parar"</h2>
+<p>Cada apuesta activa el circuito de recompensa con una intensidad parecida a la de una sustancia, y lo hace de forma intermitente: a veces ganas, casi siempre pierdes, y esa incertidumbre es justo lo que más engancha. Con el tiempo el cerebro deja de apostar por placer y apuesta para calmar la ansiedad de no apostar. Por eso las ganas aparecen cuando estás aburrido, estresado, solo o con dinero en la cuenta, y por eso "recuperar lo perdido" se siente tan lógico aunque nunca funcione.</p>
+<h2>Semana 1: cerrar las puertas</h2>
+<ul>
+<li><b>Autoexclusión en todas las plataformas donde tienes cuenta.</b> En Colombia los operadores legales están obligados a ofrecerla. Hazlo por el periodo más largo disponible, no por un mes.</li>
+<li><b>Dinero fuera de tu alcance inmediato.</b> Entrega temporalmente la tarjeta a alguien de confianza, baja el cupo de retiro, cierra las billeteras digitales que usabas para apostar, y pide que tu salario llegue a una cuenta con un segundo control. Suena extremo; es lo que más protege en el primer mes.</li>
+<li><b>Bloqueo técnico.</b> Aplicaciones de bloqueo de sitios de apuestas en el celular y el computador, con la contraseña en manos de otra persona.</li>
+<li><b>Una persona que lo sepa.</b> Una sola, elegida por ti. Decirlo en voz alta rompe el secreto que mantiene el juego.</li>
+</ul>
+<h2>Semana 2: entender tus disparadores</h2>
+<p>Lleva un registro simple en el celular: cada vez que sientas ganas de apostar, anota la hora, dónde estabas, qué sentías y qué pasó justo antes. A la semana verás un patrón: los partidos de la noche, el día de pago, las discusiones en casa, el aburrimiento del domingo. Para cada disparador, define de antemano una acción incompatible con apostar: salir a caminar, llamar a tu persona de confianza, ducharte, cocinar. El impulso dura entre 15 y 30 minutos; tu trabajo es atravesarlo, no vencerlo.</p>
+<h2>Semana 3: hacer las cuentas y las conversaciones</h2>
+<p>Esta es la semana que casi todos evitan. Suma cuánto dinero has perdido y cuánto debes. La cifra real suele ser peor de lo que creías, y aun así verla es un alivio: deja de ser un fantasma. Haz una lista de deudas por orden de urgencia y, si hay préstamos informales, busca orientación antes de pagar. Luego ten las conversaciones pendientes con las personas afectadas: sin promesas grandes, con hechos: qué hiciste en las semanas 1 y 2, qué sigues haciendo.</p>
+<h2>Semana 4: construir lo que el juego desplazó</h2>
+<p>El juego ocupaba horas, atención y emoción. Si no pones algo en ese espacio, vuelve. Recupera una actividad que disfrutabas antes de apostar, retoma a las personas de las que te alejaste y define una rutina de sueño: la mayoría de las recaídas ocurren de noche. Si en este punto notas que la ansiedad o la tristeza no ceden, es el momento de pedir ayuda profesional; no es un fracaso del plan, es parte del plan.</p>
+<h2>Si recaes</h2>
+<p>Una recaída no borra el progreso. Lo que importa es qué haces en las 24 horas siguientes: cerrar la puerta que quedó abierta, contárselo a tu persona de confianza y volver al registro de disparadores. Las personas que se recuperan no son las que nunca recaen; son las que cada vez tardan menos en volver al plan.</p>
+<h2>Cuándo buscar ayuda profesional</h2>
+<p>Si has apostado dinero que no tenías, has mentido para apostar, has pensado que no vale la pena seguir, o llevas más de dos intentos serios sin lograrlo, consulta con un psicólogo con experiencia en adicciones. El tratamiento del juego problemático tiene buena evidencia y suele ser más corto de lo que la gente imagina.</p>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+article("autoexclusion-apuestas-colombia",
+ "Autoexclusión de apuestas en Colombia: cómo activarla y qué hacer para que funcione",
+ "Qué es la autoexclusión, qué obliga la Resolución 22654 a los operadores, cómo pedirla en plataformas en línea y en salas, y por qué sola no basta.",
+ "2026-11-13", f"""
+<p>La autoexclusión es el acuerdo por el que tú mismo pides a un operador de juego que te impida apostar durante un tiempo. Es la herramienta más rápida para cortar el acceso, y en Colombia los operadores legales están obligados a ofrecerla. Esta guía explica cómo pedirla y, sobre todo, cómo hacer que sirva, porque la autoexclusión sola rara vez resuelve el problema.</p>
+<h2>Qué obliga la norma</h2>
+<p>La Resolución 22654 de 2024 de Coljuegos exige que los operadores tengan un Programa de Juego Responsable con herramientas para el jugador: el test de identificación de factores de riesgo, y, en la modalidad por internet, autoexclusión con registro, límites de juego definidos por el propio jugador y prohibición de otorgar créditos. El texto está en el <a href="https://normograma.supersalud.gov.co/compilacion/docs/resolucion_coljuegos_22654_2024.htm" target="_blank" rel="noopener">normograma de la Supersalud</a>. Si una plataforma legal no te ofrece la opción o te la dificulta, puedes reportarlo a Coljuegos.</p>
+<h2>Cómo pedirla en plataformas en línea</h2>
+<ol>
+<li>Entra a tu cuenta y busca en el perfil o en la sección de "Juego responsable" las opciones de autoexclusión o límites.</li>
+<li>Elige el periodo más largo que ofrezcan. Seis meses o un año protegen más que treinta días; el impulso de "reabrir" aparece justo cuando vence el plazo corto.</li>
+<li>Si no encuentras la opción, escribe al soporte con el asunto "Solicitud de autoexclusión" y pide confirmación por escrito. Guarda esa respuesta.</li>
+<li>Repite el proceso en cada plataforma donde tengas cuenta, incluidas las que "ya no usas".</li>
+<li>Retira el dinero que quede en las cuentas antes de cerrarlas, o pide que lo transfieran.</li>
+</ol>
+<h2>En casinos y salas de máquinas</h2>
+<p>Pide hablar con el responsable del Programa de Juego Responsable del local. Debe existir por norma. Solicita por escrito que no te permitan el ingreso durante el periodo que definas y pregunta cómo lo registran. Si frecuentas varias salas, hazlo en cada una.</p>
+<h2>Por qué la autoexclusión sola no basta</h2>
+<p>Cierra una puerta, pero no cambia las condiciones que te llevaban a esa puerta: el dinero disponible, el celular siempre a la mano, el aburrimiento, la angustia por las deudas. En la práctica vemos tres fallas frecuentes: abrir una cuenta en otra plataforma (muchas veces ilegal, sin ninguna protección), apostar a través de la cuenta de otra persona, o esperar a que venza el plazo. Por eso conviene combinarla con control del dinero, bloqueo técnico de sitios y una persona de confianza que lo sepa. Si quieres un plan completo, lee <a href="{BASE}/blog/como-dejar-de-apostar/">cómo dejar de apostar en 30 días</a>.</p>
+<h2>Para familiares</h2>
+<p>No puedes pedir la autoexclusión por otra persona: debe hacerlo ella. Lo que sí puedes es acompañar el proceso, ayudar a hacer la lista de plataformas y estar presente cuando la solicite. Si tu familiar no quiere hacerlo, el camino es la conversación, no la presión; aquí tienes una <a href="{BASE}/blog/como-ayudar-a-un-familiar-con-ludopatia/">guía para hablar con un familiar que apuesta</a>.</p>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+article("test-ludopatia-tengo-problemas-con-el-juego",
+ "¿Tengo problemas con el juego? Las 9 preguntas que usan los psicólogos",
+ "Un autotest breve basado en los criterios clínicos del juego patológico, cómo interpretar el resultado y qué hacer según tu puntaje.",
+ "2026-11-13", f"""
+<p>La mayoría de personas con juego problemático pasan años diciéndose que lo tienen bajo control. Este autotest no diagnostica, pero sí te dice con honestidad en qué punto estás. Está construido sobre los criterios que usan los manuales clínicos para el juego patológico, traducidos a preguntas sobre los últimos 12 meses. Responde sí o no, sin negociar contigo mismo.</p>
+<h2>Las nueve preguntas</h2>
+<ol>
+<li>¿Has necesitado apostar cantidades cada vez mayores para sentir la misma emoción?</li>
+<li>¿Te has sentido inquieto o irritable cuando intentaste reducir o dejar de apostar?</li>
+<li>¿Has intentado controlar, reducir o dejar el juego sin lograrlo, más de una vez?</li>
+<li>¿Pasas mucho tiempo pensando en apuestas pasadas, planeando las siguientes o buscando dinero para apostar?</li>
+<li>¿Apuestas cuando te sientes angustiado, culpable, ansioso, triste o aburrido?</li>
+<li>¿Después de perder, vuelves otro día para intentar recuperar lo perdido?</li>
+<li>¿Has mentido a tu familia, pareja o amigos sobre cuánto apuestas o cuánto has perdido?</li>
+<li>¿El juego ha puesto en riesgo o te ha hecho perder una relación, un empleo, una oportunidad de estudio o dinero que no era tuyo?</li>
+<li>¿Has pedido dinero a otros para resolver problemas económicos causados por las apuestas?</li>
+</ol>
+<h2>Cómo leer tu resultado</h2>
+<ul>
+<li><b>0 a 1 respuestas afirmativas:</b> juego recreativo o de bajo riesgo. Aun así, si apuestas en línea con frecuencia, pon límites de depósito: el diseño de las plataformas está hecho para que el riesgo suba sin que lo notes.</li>
+<li><b>2 a 3:</b> juego de riesgo. Es el momento ideal para intervenir, porque el patrón todavía no se ha consolidado. Activa límites, reduce el acceso y revisa qué estás buscando cuando apuestas.</li>
+<li><b>4 o más:</b> patrón compatible con juego problemático. No es una etiqueta para avergonzarte: es información. Lo que sigue es cerrar accesos (autoexclusión, control del dinero) y hablar con un profesional de salud mental.</li>
+</ul>
+<h2>Lo que el test no te dice</h2>
+<p>Un puntaje alto no describe quién eres; describe una conducta que se puede cambiar, y que cambia con tratamiento en la mayoría de los casos. Un puntaje bajo tampoco es un permiso: si alguien que te quiere está preocupado por tus apuestas, esa preocupación cuenta como una respuesta afirmativa más.</p>
+<h2>Qué hacer hoy</h2>
+<p>Si sacaste 2 o más, lee <a href="{BASE}/blog/como-dejar-de-apostar/">el plan de 30 días para dejar de apostar</a> y <a href="{BASE}/blog/autoexclusion-apuestas-colombia/">cómo activar la autoexclusión en Colombia</a>. Si prefieres hablarlo con alguien, puedes escribirme por WhatsApp y te oriento sobre el paso siguiente.</p>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+# ---------------------------------------------------------------- AFILIADOS
+afil_body = f"""
+<section class="hero"><div class="wrap narrow">
+  <p class="eyebrow">Programa de afiliados en Hotmart</p>
+  <h1 style="margin-top:18px">Gana hasta el 50 % recomendando cursos de salud mental <em>dictados por un psicólogo</em>.</h1>
+  <p class="lead" style="margin-top:22px">Si tienes una audiencia de psicología, educación, desarrollo personal, familia o finanzas personales, puedes promover estos dos cursos con tu enlace de Hotmart. Hotmart paga la comisión de forma automática por cada venta confirmada; tú no manejas cobros ni soporte.</p>
+  <ul class="cards">
+    <li class="card"><b>Vida Con-Sentido · 50 %</b><span>Programa de bienestar psicológico de 24 horas (120.000 COP). Audiencias de bienestar, productividad, maternidad/paternidad y crecimiento personal.</span><br><a class="btn btn-accent" style="margin-top:16px" href="https://affiliate.hotmart.com/affiliate-recruiting/view/0339V108443801" target="_blank" rel="noopener">Afiliarme en Hotmart</a></li>
+    <li class="card"><b>Curso de ludopatía · 40 %</b><span>Formación certificada de 60 horas (260.000 COP). Audiencias de psicología, trabajo social, adicciones, educación y finanzas personales; también empresas de juego.</span><br><a class="btn btn-primary" style="margin-top:16px" href="https://go.hotmart.com/X108428929J" target="_blank" rel="noopener">Ver el curso en Hotmart</a></li>
+  </ul>
+  <h2 style="font-size:1.6rem">Qué recibes como afiliado</h2>
+  <ul>
+    <li>Atribución por último clic, sin caducidad: si tu referido compra meses después, la comisión es tuya.</li>
+    <li>Banners, textos para historias y correos, y un video de presentación del docente.</li>
+    <li>Bono automático para tus compradores (guía descargable), que mejora tu conversión.</li>
+    <li>Acceso gratuito al curso para conocerlo antes de promocionarlo, a los primeros 10 afiliados activos.</li>
+    <li>Para ventas corporativas de 5 cupos o más, la comisión se paga sobre el total.</li>
+  </ul>
+  <h2 style="font-size:1.6rem">Reglas</h2>
+  <p>Presenta los cursos como formación psicoeducativa, nunca como terapia ni con promesas de curación. Sin spam, sin testimonios inventados, sin anuncios dirigidos a menores ni junto a casas de apuestas, sin imágenes de fichas o tragamonedas. Las afiliaciones que incumplan se cancelan.</p>
+  <p style="margin-top:28px"><a class="btn btn-ghost" href="{wa('Hola Fredy, quiero ser afiliado de tus cursos en Hotmart y recibir los materiales.')}">Pedir materiales y acceso por WhatsApp</a></p>
+</div></section>
+"""
+PAGES.append(page("afiliados", "Programa de afiliados · Cursos de salud mental en Hotmart · Fredy Moreno",
+    "Gana hasta el 50 % por recomendar cursos de salud mental dictados por un psicólogo: Vida Con-Sentido y el curso certificado de ludopatía. Afiliación por Hotmart.", afil_body))
+
 # render articles
 for a in ARTICLES:
     url = f"{BASE}/blog/{a['slug']}/"
