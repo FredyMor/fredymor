@@ -95,7 +95,7 @@ ludo_body = f"""
     </ul>
   </div>
   <aside class="offer" aria-label="Precio e inscripción">
-    <img src="{BASE}/curso/img/producto-hotmart-1200.jpg" width="600" height="600" alt="Curso de formación: Prevención, abordaje y manejo de la ludopatía">
+    <img src="{BASE}/curso/img/portada-ludopatia-rostro-1200.jpg" width="600" height="600" alt="Curso de formación: Prevención, abordaje y manejo de la ludopatía">
     <div class="offer-body">
       <span class="flag">Black Friday · 40 % del 23 al 30 de noviembre</span>
       <div class="price"><b>$260.000</b><span class="cur">COP</span></div>
@@ -176,7 +176,7 @@ PAGES.append(page("ludopatia", "Curso de ludopatía con certificado · 60 horas 
 
 # ---------------------------------------------------------------- VIDA CON-SENTIDO
 vcs_ld = """<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Course","name":"Vida Con-Sentido: bienestar psicológico y avance personal","description":"Programa de 24 horas en 6 módulos con enfoque sistémico: encuentros en vivo, lecturas y actividades prácticas para ordenar prioridades, relaciones y hábitos, guiado por un psicólogo.","inLanguage":"es","url":"%s/vida-con-sentido/","image":"%s/og-image.jpg","provider":{"@type":"Person","name":"Fredy Moreno Quintero","jobTitle":"Psicólogo"},"offers":{"@type":"Offer","price":"120000","priceCurrency":"COP","url":"%s","category":"Paid"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT24H","startDate":"2026-11-20"}}
+{"@context":"https://schema.org","@type":"Course","name":"Vida Con-Sentido: bienestar psicológico y avance personal","description":"Programa de 24 horas en 6 módulos con enfoque sistémico: encuentros en vivo, lecturas y actividades prácticas para ordenar prioridades, relaciones y hábitos, guiado por un psicólogo.","inLanguage":"es","url":"%s/vida-con-sentido/","image":"%s/curso/img/portada-vida-con-sentido-rostro-1200.jpg","provider":{"@type":"Person","name":"Fredy Moreno Quintero","jobTitle":"Psicólogo"},"offers":{"@type":"Offer","price":"120000","priceCurrency":"COP","url":"%s","category":"Paid"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT24H","startDate":"2026-11-20"}}
 </script>""" % (BASE, BASE, VCS_PAY)
 vcs_msg = "Hola Fredy, quiero información sobre el programa «Vida Con-Sentido»."
 vcs_body = f"""
@@ -194,7 +194,7 @@ vcs_body = f"""
     </ul>
   </div>
   <aside class="offer" aria-label="Precio e inscripción">
-    <img src="{BASE}/og-image.jpg" width="1200" height="630" style="aspect-ratio:1200/630" alt="Vida Con-Sentido: bienestar psicológico y avance personal">
+    <img src="{BASE}/curso/img/portada-vida-con-sentido-rostro-1200.jpg" alt="Vida Con-Sentido: bienestar psicológico y avance personal">
     <div class="offer-body">
       <span class="flag">Primera cohorte · inicia el 20 de noviembre</span>
       <div class="price"><b>$120.000</b><span class="cur">COP</span></div>
@@ -250,7 +250,7 @@ vcs_body = f"""
 """
 PAGES.append(page("vida-con-sentido", "Vida Con-Sentido · Programa de bienestar psicológico con un psicólogo · 6 módulos",
     "Programa online de 24 horas en 6 módulos para ordenar prioridades, relaciones y hábitos con enfoque sistémico. Encuentros en vivo con un psicólogo. Inicia el 20 de noviembre.",
-    vcs_body, "product", None, vcs_ld, vcs_msg))
+    vcs_body, "product", f"{BASE}/curso/img/portada-vida-con-sentido-rostro-1200.jpg", vcs_ld, vcs_msg))
 
 # ---------------------------------------------------------------- BLOG
 ARTICLES = []
