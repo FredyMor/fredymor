@@ -86,7 +86,7 @@ ludo_body = f"""
     <p class="eyebrow">Curso online · 60 horas · Certificado de participación · Inicia el 2 de diciembre</p>
     <h1 style="margin-top:18px">Aprende a identificar, abordar y acompañar a una persona con <em>problemas de juego</em>.</h1>
     <p class="lead">Las apuestas ya están en el celular, a un clic y a toda hora. Si un familiar apuesta y no sabes cómo hablarle, si atiendes personas con conductas de riesgo o si tu empresa debe cumplir un Programa de Juego Responsable, este curso te da el procedimiento completo: qué mirar, qué decir, qué hacer y a dónde derivar.</p>
-    <ul class="facts"><li>Dictado por un psicólogo clínico y familiar</li><li>13 módulos y 3 rutas de aprendizaje</li><li>Casos, simulaciones y laboratorios guiados</li><li>Garantía de 7 días en Hotmart</li></ul>
+    <ul class="facts"><li>Dictado por un psicólogo clínico y familiar</li><li>13 módulos y 3 rutas de aprendizaje</li><li>Casos, simulaciones y laboratorios guiados</li><li><b>Incluye 1 sesión de asesoría familiar sin costo</b></li><li>Garantía de 7 días en Hotmart</li></ul>
     <h2 style="margin-top:2em;font-size:1.6rem">Para quién es</h2>
     <ul class="cards">
       <li class="card"><b>Familiares y parejas</b><span>Para acompañar a alguien que apuesta sin romper la relación ni la economía del hogar.</span></li>
@@ -99,7 +99,7 @@ ludo_body = f"""
     <div class="offer-body">
       <span class="flag">Black Friday · 40 % del 23 al 30 de noviembre</span>
       <div class="price"><b>$260.000</b><span class="cur">COP</span></div>
-      <p class="price-sub">Pago seguro en Hotmart, también en cuotas · Acceso por 12 meses · Certificado de 60 horas · Garantía de 7 días</p>
+      <p class="price-sub">Pago seguro en Hotmart, también en cuotas · Acceso por 12 meses · Certificado de 60 horas · <b>Sesión de asesoría familiar sin costo</b> · Garantía de 7 días</p>
       <div class="offer-ctas">
         <a class="btn btn-accent btn-lg" href="{LUDO_PAY}?sck=web_ludopatia" target="_blank" rel="noopener">Inscribirme · inicia el 2 de diciembre</a>
         <a class="btn btn-ghost" href="{wa(ludo_b2b)}">Cotizar para mi empresa (5+ cupos)</a>
@@ -159,13 +159,14 @@ ludo_body = f"""
     <details><summary>¿Cómo funciona el acceso?</summary><p>Al pagar en Hotmart recibes acceso inmediato al área de miembros. Las lecciones se liberan desde el 2 de diciembre y tienes 12 meses para completarlas a tu ritmo.</p></details>
     <details><summary>¿El certificado es válido?</summary><p>Recibes un certificado de participación de 60 horas emitido por el docente. Es formación no formal: no es un título profesional ni reemplaza tratamiento.</p></details>
     <details><summary>¿Puedo pedir reembolso?</summary><p>Sí. Hotmart ofrece 7 días de garantía desde la compra, sin preguntas.</p></details>
+    <details><summary>¿Qué incluye la asesoría familiar sin costo?</summary><p>Con tu inscripción recibes una sesión de asesoría familiar en línea de 60 minutos conmigo, por Google Meet, para revisar tu caso: cómo hablar con la persona que apuesta, cómo proteger la economía del hogar y a dónde buscar tratamiento. La agendas por WhatsApp después de la compra, dentro de los 12 meses de acceso. Es una orientación, no reemplaza un tratamiento clínico.</p></details>
     <details><summary>¿Hay descuento para empresas o grupos?</summary><p>Sí, desde 5 cupos. Escríbeme por WhatsApp y te envío la ficha técnica y la cotización el mismo día.</p></details>
   </div>
 </div></section>
 
 <section class="section cta-final"><div class="wrap narrow">
   <h2 style="margin-top:0">Inicia el 2 de diciembre de 2026.</h2>
-  <p class="lead" style="margin:16px auto 0">260.000 COP · 60 horas · Certificado · Garantía de 7 días.</p>
+  <p class="lead" style="margin:16px auto 0">260.000 COP · 60 horas · Certificado · Asesoría familiar sin costo · Garantía de 7 días.</p>
   <a class="btn btn-accent btn-lg" href="{LUDO_PAY}?sck=web_ludopatia_final" target="_blank" rel="noopener">Inscribirme en Hotmart</a>
   <p class="muted" style="margin-top:14px"><a href="{wa(ludo_msg)}">¿Tienes una pregunta? Escríbeme por WhatsApp</a></p>
 </div></section>
@@ -257,7 +258,7 @@ ARTICLES = []
 def article(slug, title, desc, date, body, course):
     ARTICLES.append(dict(slug=slug, title=title, desc=desc, date=date, body=body, course=course))
 
-LUDO_CALL = f"""<div class="callout"><b>Curso certificado: Prevención, abordaje y manejo de la ludopatía</b>60 horas, 13 módulos y tres rutas (personal, familia y profesional), dictado por un psicólogo clínico y familiar. Inicia el 2 de diciembre de 2026. Garantía de 7 días.<br><a class="btn btn-accent" href="{BASE}/ludopatia/">Ver el curso</a></div>"""
+LUDO_CALL = f"""<div class="callout"><b>Curso certificado: Prevención, abordaje y manejo de la ludopatía</b>60 horas, 13 módulos y tres rutas (personal, familia y profesional), dictado por un psicólogo clínico y familiar. Incluye una sesión de asesoría familiar sin costo. Inicia el 2 de diciembre de 2026. Garantía de 7 días.<br><a class="btn btn-accent" href="{BASE}/ludopatia/">Ver el curso</a></div>"""
 VCS_CALL = f"""<div class="callout"><b>Vida Con-Sentido: seis semanas para recuperar el rumbo</b>Programa de 24 horas en 6 módulos con encuentros en vivo, guiado por un psicólogo con enfoque sistémico. Inicia el 20 de noviembre de 2026.<br><a class="btn btn-accent" href="{BASE}/vida-con-sentido/">Ver el programa</a></div>"""
 CRISIS = """<p class="warn">Si tú o alguien cercano está en riesgo inmediato en Colombia, llama a la Línea 106 (salud mental) o al 123. Este artículo es orientación psicoeducativa y no reemplaza una valoración profesional.</p>"""
 
