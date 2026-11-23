@@ -340,6 +340,96 @@ article("cerrar-el-ano-sin-agotamiento",
 {VCS_CALL}
 """, "vcs")
 
+article("ludopatia-que-es-sintomas-causas-tratamiento",
+ "Ludopatía: qué es, síntomas, causas y tratamiento (guía de un psicólogo)",
+ "Qué es la ludopatía o juego patológico, cuáles son sus síntomas, por qué aparece, cómo se trata y cuándo buscar ayuda. Guía clara de un psicólogo.",
+ "2026-11-23", f"""
+<p>La ludopatía, también llamada juego patológico o trastorno por juego, es la dificultad persistente para controlar las apuestas aunque estén causando daño a la persona, a su familia o a su economía. No es un problema de voluntad ni de moral: es un trastorno reconocido en los manuales de salud mental, que comparte con otras adicciones el mismo circuito cerebral de recompensa.</p>
+<h2>Síntomas principales</h2>
+<ul>
+<li>Necesidad de apostar cada vez más dinero para sentir la misma emoción.</li>
+<li>Inquietud o irritabilidad al intentar reducir o dejar de apostar.</li>
+<li>Intentos repetidos y fallidos de controlar el juego.</li>
+<li>Pensar todo el tiempo en apostar: planear la próxima apuesta o cómo conseguir dinero.</li>
+<li>Apostar para escapar de la tristeza, la ansiedad o los problemas.</li>
+<li>Volver al día siguiente para "recuperar" lo perdido.</li>
+<li>Mentir a la familia sobre el tiempo o el dinero que se apuesta.</li>
+<li>Poner en riesgo el trabajo, los estudios o las relaciones.</li>
+<li>Pedir dinero a otros para cubrir deudas de juego.</li>
+</ul>
+<p>Cuantas más de estas señales aparecen en los últimos doce meses, más probable es que exista un problema. Para una primera orientación puedes hacer el <a href="{BASE}/blog/test-ludopatia-tengo-problemas-con-el-juego/">test de autoevaluación</a>; no reemplaza una valoración profesional.</p>
+<h2>¿Por qué aparece?</h2>
+<p>No hay una sola causa. Influyen factores biológicos (sensibilidad del sistema de recompensa), psicológicos (impulsividad, ansiedad, depresión, búsqueda de emociones) y sociales (acceso fácil, publicidad constante, apuestas en el celular a cualquier hora, presión del grupo). Las apuestas en línea aceleran el proceso porque eliminan las pausas naturales: se puede apostar en segundos, sin salir de casa y con bonos que invitan a seguir.</p>
+<h2>¿Cómo se trata?</h2>
+<ul>
+<li><b>Psicoterapia.</b> La terapia cognitivo-conductual es la de mejor evidencia: trabaja las creencias que mantienen el juego ("ya me toca ganar") y enseña a manejar los impulsos.</li>
+<li><b>Control del acceso.</b> Autoexclusión en casinos y plataformas, bloqueo de apps y, por un tiempo, que otra persona administre el dinero.</li>
+<li><b>Familia.</b> El acompañamiento familiar sin humillar mejora mucho el pronóstico; la familia también necesita orientación propia.</li>
+<li><b>Grupos de apoyo</b> como Jugadores Anónimos.</li>
+<li><b>Atención de lo que acompaña al juego:</b> ansiedad, depresión o consumo de alcohol, que son frecuentes.</li>
+</ul>
+<p>Las recaídas son parte del proceso de recuperación. Lo importante es detectarlas pronto y retomar el plan.</p>
+<h2>¿Cuándo buscar ayuda?</h2>
+<p>Si hay deudas que crecen, mentiras repetidas, intentos fallidos de parar o cualquier idea de no querer vivir, es momento de consultar. Aquí tienes una guía de <a href="{BASE}/blog/donde-pedir-ayuda-ludopatia-colombia/">dónde pedir ayuda en Colombia</a>.</p>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+article("donde-pedir-ayuda-ludopatia-colombia",
+ "¿Dónde pedir ayuda para la ludopatía en Colombia? Líneas, autoexclusión y tratamiento",
+ "Guía práctica para pedir ayuda por apuestas o ludopatía en Colombia: Línea 106, EPS, autoexclusión, grupos de apoyo y qué hacer si eres familiar.",
+ "2026-11-23", f"""
+<p>Pedir ayuda por un problema con las apuestas da vergüenza, y por eso mucha gente espera demasiado. Esta guía reúne, en un solo lugar, los caminos concretos que existen en Colombia, tanto para la persona que apuesta como para su familia.</p>
+<h2>Si es una urgencia</h2>
+<p>Si hay ideas de hacerse daño o una crisis, llama a la <b>Línea 106</b> (orientación en salud mental, gratuita y confidencial, 24 horas) o al <b>123</b>. También puedes acudir a urgencias de cualquier hospital.</p>
+<h2>Atención en salud mental por tu EPS</h2>
+<p>Tu EPS debe ofrecer atención en salud mental. Pide cita con medicina general y explica que tienes un problema con el juego; desde ahí te remiten a psicología o psiquiatría. Llevar anotado cuánto apuestas, desde cuándo y qué intentos has hecho para parar ayuda a que te atiendan mejor.</p>
+<h2>Autoexclusión y límites</h2>
+<p>Los operadores legales de juego en Colombia deben ofrecer herramientas de juego responsable, como límites de depósito y autoexclusión. La autoexclusión bloquea tu cuenta por un periodo. Es una de las medidas más efectivas al inicio, porque pone distancia entre el impulso y la apuesta. Aquí explicamos <a href="{BASE}/blog/autoexclusion-apuestas-colombia/">cómo funciona la autoexclusión</a>.</p>
+<h2>Grupos de apoyo</h2>
+<p>Jugadores Anónimos y otros grupos de ayuda mutua ofrecen reuniones donde personas con el mismo problema comparten su proceso. Son gratuitos y complementan muy bien la terapia.</p>
+<h2>Si eres familiar</h2>
+<p>La familia también necesita orientación: cómo hablar sin culpa ni enfrentamientos, cómo proteger el dinero del hogar y cómo acompañar sin rescatar. Lee <a href="{BASE}/blog/como-ayudar-a-un-familiar-con-ludopatia/">cómo ayudar a un familiar con ludopatía</a>.</p>
+<h2>Un primer paso hoy</h2>
+<ul>
+<li>Haz el <a href="{BASE}/blog/test-ludopatia-tengo-problemas-con-el-juego/">test de autoevaluación</a>.</li>
+<li>Activa la autoexclusión en las plataformas que usas.</li>
+<li>Cuéntale a una persona de confianza.</li>
+<li>Pide la cita con tu EPS o con un psicólogo.</li>
+</ul>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+article("agotamiento-emocional-sintomas-que-hacer",
+ "Agotamiento emocional: síntomas, causas y qué hacer para recuperarte",
+ "Cómo reconocer el agotamiento emocional, en qué se diferencia del cansancio normal y qué pasos concretos ayudan a recuperarte. Guía de un psicólogo.",
+ "2026-11-23", f"""
+<p>El agotamiento emocional es esa sensación de no tener nada más que dar, incluso después de dormir. No es pereza ni falta de carácter: es la respuesta del cuerpo y la mente a una exigencia sostenida sin suficiente recuperación. Lo viven mucho quienes cuidan a otros, quienes trabajan bajo presión y quienes están conectados todo el día.</p>
+<h2>Síntomas frecuentes</h2>
+<ul>
+<li>Cansancio que no se va con el descanso.</li>
+<li>Irritabilidad o poca paciencia con personas cercanas.</li>
+<li>Sensación de distancia o indiferencia frente a lo que antes importaba.</li>
+<li>Dificultad para concentrarse y olvidos.</li>
+<li>Problemas de sueño, dolores de cabeza o tensión muscular.</li>
+<li>Sensación de que todo es urgente y nada es tuyo.</li>
+</ul>
+<h2>¿De dónde viene?</h2>
+<p>Suele combinar tres cosas: demandas altas (trabajo, cuidado de otros, problemas económicos), poco control sobre el propio tiempo y poca recuperación real. La hiperconexión digital agrava las tres: nunca se termina la jornada.</p>
+<h2>Qué hacer: cinco pasos concretos</h2>
+<ol>
+<li><b>Nombra lo que te agota.</b> Haz una lista de tareas, relaciones y situaciones que más energía te quitan.</li>
+<li><b>Protege un espacio diario sin pantalla.</b> Aunque sean 30 minutos.</li>
+<li><b>Recupera el cuerpo.</b> Sueño regular, movimiento suave, comida a horas fijas.</li>
+<li><b>Ten una conversación pendiente.</b> Muchas veces el agotamiento viene de un límite que no se ha dicho.</li>
+<li><b>Elige tres decisiones para los próximos 90 días.</b> Pocas y concretas, no veinte propósitos.</li>
+</ol>
+<p>Si los síntomas duran varias semanas, afectan tu trabajo o tus relaciones, o aparece tristeza profunda, consulta con un profesional.</p>
+{CRISIS}
+{VCS_CALL}
+""", "vcs")
+
 article("programa-de-juego-responsable-resolucion-22654",
  "Programa de Juego Responsable: qué exige la Resolución 22654 de 2024 y cómo capacitar a tu equipo",
  "Resumen práctico para operadores de juegos de suerte y azar en Colombia: obligaciones, plazos, plan anual de capacitación e informe a Coljuegos.",
@@ -560,7 +650,7 @@ afil_body = f"""
 </div></section>
 """
 PAGES.append(page("afiliados", "Programa de afiliados · Cursos de salud mental en Hotmart · Fredy Moreno",
-    "Gana hasta el 50 % por recomendar cursos de salud mental dictados por un psicólogo: Vida Con-Sentido y el curso certificado de ludopatía. Afiliación por Hotmart.", afil_body))
+    "Gana hasta el 60 % por recomendar cursos de salud mental dictados por un psicólogo: Vida Con-Sentido y el curso certificado de ludopatía. Afiliación por Hotmart.", afil_body))
 
 # render articles
 for a in ARTICLES:
@@ -593,6 +683,17 @@ blog_body = f"""
 """
 PAGES.append(page("blog", "Artículos sobre salud mental, ludopatía y bienestar · Fredy Moreno, psicólogo",
     "Artículos de un psicólogo con enfoque sistémico: ludopatía, agotamiento digital, bienestar emocional y familia.", blog_body))
+
+
+# FAQPage schema para páginas de curso
+import json as _json
+for _p in ["ludopatia", "vida-con-sentido"]:
+    _f = os.path.join(ROOT, _p, "index.html"); _h = open(_f, encoding="utf-8").read()
+    _qs = re.findall(r"<details><summary>(.*?)</summary><p>(.*?)</p></details>", _h, re.S)
+    if _qs:
+        _ld = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":re.sub("<[^>]+>","",q),"acceptedAnswer":{"@type":"Answer","text":re.sub("<[^>]+>","",a)}} for q,a in _qs]}
+        _h = _h.replace("</head>", '<script type="application/ld+json">'+_json.dumps(_ld, ensure_ascii=False)+"</script>\n</head>", 1)
+        open(_f, "w", encoding="utf-8").write(_h)
 
 # sitemap + robots
 urls = [f"{BASE}/", f"{BASE}/diplomado/"] + PAGES
