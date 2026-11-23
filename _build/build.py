@@ -53,7 +53,7 @@ HEAD = """<!DOCTYPE html>
 FOOT = """
 </main>
 <footer class="footer"><div class="wrap">
-  <span>© {year} Fredy Moreno Quintero · Psicólogo · Mg. en Asesoría Familiar · Cundinamarca, Colombia</span>
+  <span>© {year} Fredy Moreno Quintero · Psicólogo · Mg. en Asesoría Familiar · Bogotá, Colombia</span>
   <span><a href="{base}/">Inicio</a> · <a href="{base}/ludopatia/">Curso de ludopatía</a> · <a href="{base}/vida-con-sentido/">Vida Con-Sentido</a> · <a href="{base}/blog/">Artículos</a></span>
 </div></footer>
 <a class="wa-float" href="{wa}" aria-label="Escribir por WhatsApp">WhatsApp</a>
