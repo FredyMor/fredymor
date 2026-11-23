@@ -183,7 +183,7 @@ vcs_msg = "Hola Fredy, quiero información sobre el programa «Vida Con-Sentido�
 vcs_body = f"""
 <section class="hero"><div class="wrap hero-grid">
   <div>
-    <p class="eyebrow">Programa online · 24 horas · 6 módulos · Inicia el 20 de noviembre</p>
+    <p class="eyebrow">Programa online · 24 horas · 6 módulos · Inscripciones abiertas</p>
     <h1 style="margin-top:18px">Seis semanas para recuperar el rumbo, <em>con método</em> y sin frases vacías.</h1>
     <p class="lead">Cumples con todo y, aun así, sientes que la vida se te va en lo urgente. No necesitas más motivación; necesitas un método. Vida Con-Sentido es un programa breve, guiado por un psicólogo, que te lleva paso a paso a decidir qué sostener, qué soltar y cómo hacerlo en tus relaciones, tu trabajo y tu descanso.</p>
     <ul class="facts"><li>Un encuentro en vivo de 2 horas por módulo</li><li>Lectura orientadora y actividad práctica por módulo</li><li>Enfoque sistémico y recorrido personalizado</li><li>Certificado de 24 horas</li></ul>
@@ -197,11 +197,11 @@ vcs_body = f"""
   <aside class="offer" aria-label="Precio e inscripción">
     <img src="{BASE}/curso/img/portada-vida-con-sentido-rostro-1200.jpg" alt="Vida Con-Sentido: bienestar psicológico y avance personal">
     <div class="offer-body">
-      <span class="flag">Primera cohorte · inicia el 20 de noviembre</span>
+      <span class="flag">Inscripciones abiertas · cohortes permanentes</span>
       <div class="price"><b>$120.000</b><span class="cur">COP</span></div>
       <p class="price-sub">Pago seguro en Hotmart · 6 encuentros en vivo · Certificado de 24 horas · Garantía de 7 días</p>
       <div class="offer-ctas">
-        <a class="btn btn-accent btn-lg" href="{VCS_PAY}?sck=web_vcs" target="_blank" rel="noopener">Empiezo el 20 de noviembre</a>
+        <a class="btn btn-accent btn-lg" href="{VCS_PAY}?sck=web_vcs" target="_blank" rel="noopener">Quiero inscribirme</a>
         <a class="btn btn-ghost" href="{wa(vcs_msg)}">Preguntar por WhatsApp</a>
       </div>
       <p class="offer-note">Es formación educativa y preventiva: no es psicoterapia ni tratamiento. Si estás en crisis en Colombia, llama a la Línea 106 o al 123.</p>
@@ -243,14 +243,14 @@ vcs_body = f"""
 </div></section>
 
 <section class="section cta-final"><div class="wrap narrow">
-  <h2 style="margin-top:0">La primera cohorte inicia el 20 de noviembre de 2026.</h2>
+  <h2 style="margin-top:0">Inscripciones abiertas: te unes a la siguiente cohorte.</h2>
   <p class="lead" style="margin:16px auto 0">120.000 COP · 24 horas · 6 encuentros en vivo · Certificado · Garantía de 7 días.</p>
   <a class="btn btn-accent btn-lg" href="{VCS_PAY}?sck=web_vcs_final" target="_blank" rel="noopener">Inscribirme en Hotmart</a>
   <p class="muted" style="margin-top:14px"><a href="{wa(vcs_msg)}">¿Tienes una pregunta? Escríbeme por WhatsApp</a></p>
 </div></section>
 """
 PAGES.append(page("vida-con-sentido", "Vida Con-Sentido · Programa de bienestar psicológico con un psicólogo · 6 módulos",
-    "Programa online de 24 horas en 6 módulos para ordenar prioridades, relaciones y hábitos con enfoque sistémico. Encuentros en vivo con un psicólogo. Inicia el 20 de noviembre.",
+    "Programa online de 24 horas en 6 módulos para ordenar prioridades, relaciones y hábitos con enfoque sistémico. Encuentros en vivo con un psicólogo. Inscripciones abiertas.",
     vcs_body, "product", f"{BASE}/curso/img/portada-vida-con-sentido-rostro-1200.jpg", vcs_ld, vcs_msg))
 
 # ---------------------------------------------------------------- BLOG
@@ -259,7 +259,7 @@ def article(slug, title, desc, date, body, course):
     ARTICLES.append(dict(slug=slug, title=title, desc=desc, date=date, body=body, course=course))
 
 LUDO_CALL = f"""<div class="callout"><b>Curso certificado: Prevención, abordaje y manejo de la ludopatía</b>60 horas, 13 módulos y tres rutas (personal, familia y profesional), dictado por un psicólogo clínico y familiar. Incluye una sesión de asesoría familiar sin costo. Inicia el 2 de diciembre de 2026. Garantía de 7 días.<br><a class="btn btn-accent" href="{BASE}/ludopatia/">Ver el curso</a></div>"""
-VCS_CALL = f"""<div class="callout"><b>Vida Con-Sentido: seis semanas para recuperar el rumbo</b>Programa de 24 horas en 6 módulos con encuentros en vivo, guiado por un psicólogo con enfoque sistémico. Inicia el 20 de noviembre de 2026.<br><a class="btn btn-accent" href="{BASE}/vida-con-sentido/">Ver el programa</a></div>"""
+VCS_CALL = f"""<div class="callout"><b>Vida Con-Sentido: seis semanas para recuperar el rumbo</b>Programa de 24 horas en 6 módulos con encuentros en vivo, guiado por un psicólogo con enfoque sistémico. Inscripciones abiertas: te unes a la siguiente cohorte.<br><a class="btn btn-accent" href="{BASE}/vida-con-sentido/">Ver el programa</a></div>"""
 CRISIS = """<p class="warn">Si tú o alguien cercano está en riesgo inmediato en Colombia, llama a la Línea 106 (salud mental) o al 123. Este artículo es orientación psicoeducativa y no reemplaza una valoración profesional.</p>"""
 
 article("como-ayudar-a-un-familiar-con-ludopatia",
@@ -289,6 +289,56 @@ article("como-ayudar-a-un-familiar-con-ludopatia",
 {CRISIS}
 {LUDO_CALL}
 """, "ludopatia")
+
+article("apuestas-en-diciembre-senales-de-alerta",
+ "Apuestas en diciembre: 7 señales de alerta y cómo proteger la prima de tu familia",
+ "Diciembre trae prima, fiestas y partidos. Un psicólogo explica las señales de alerta de las apuestas y cómo proteger el dinero de la familia sin pelear.",
+ "2026-11-23", f"""
+<p>Diciembre trae prima, fiestas, partidos y más tiempo libre. Para muchas familias también trae algo que no se ve venir: el dinero de la prima que desaparece en apuestas desde el celular. Como psicólogo y asesor familiar, estas son las señales que conviene mirar y lo que sí funciona para proteger a la familia.</p>
+<h2>7 señales de alerta</h2>
+<ol>
+<li>Habla de "recuperar" lo perdido o de que "ya le toca ganar".</li>
+<li>Cambia de humor según los resultados de un partido o de una app.</li>
+<li>Pide dinero prestado o adelantos sin explicar bien para qué.</li>
+<li>Esconde el celular, borra notificaciones o tiene apps nuevas de apuestas.</li>
+<li>Falta dinero de gastos fijos: arriendo, servicios, mercado.</li>
+<li>Pasa más tiempo apostando y menos con la familia, incluso en reuniones.</li>
+<li>Se irrita o se pone a la defensiva cuando alguien toca el tema.</li>
+</ol>
+<p>Una sola señal no es un diagnóstico. Varias juntas, y que se repitan, sí son motivo para actuar. Si quieres una primera orientación, haz el <a href="{BASE}/blog/test-ludopatia-tengo-problemas-con-el-juego/">test de autoevaluación</a>.</p>
+<h2>Cómo proteger la prima sin pelear</h2>
+<ul>
+<li><b>Separa el dinero de la casa.</b> Los gastos fijos van primero y a una cuenta aparte, antes de que llegue la tentación.</li>
+<li><b>Habla de hechos, no de su carácter.</b> "Faltó el dinero del arriendo" funciona mejor que "eres un irresponsable".</li>
+<li><b>No pagues deudas de juego sin un plan.</b> Sin querer, eso mantiene el ciclo.</li>
+<li><b>Propón ayuda concreta.</b> La autoexclusión en casinos y plataformas, una cita con un psicólogo o un grupo de Jugadores Anónimos.</li>
+<li><b>Cuídate tú también.</b> La familia necesita apoyo propio para sostener los acuerdos.</li>
+</ul>
+<h2>Si las fiestas ya se complicaron</h2>
+<p>No esperes a enero. Las deudas de diciembre suelen empujar a apostar más en enero para "tapar el hueco". Una conversación tranquila, un acuerdo escrito sobre el dinero y una consulta a tiempo evitan que el problema crezca.</p>
+{CRISIS}
+{LUDO_CALL}
+""", "ludopatia")
+
+article("cerrar-el-ano-sin-agotamiento",
+ "Cómo cerrar el año sin agotamiento: 5 preguntas para empezar 2027 con sentido",
+ "Un psicólogo propone cinco preguntas para hacer un cierre de año honesto, soltar lo que pesa y elegir tres decisiones concretas para 2027.",
+ "2026-11-23", f"""
+<p>Fin de año suele llegar con una mezcla rara: cansancio acumulado, balances que nadie pidió y propósitos que se olvidan en febrero. No necesitas una lista de veinte metas. Necesitas un cierre honesto. Estas cinco preguntas son las que uso en procesos de bienestar psicológico; tómate una hora tranquila y respóndelas por escrito.</p>
+<h2>1. ¿Qué se cerró este año?</h2>
+<p>Una relación, un trabajo, una etapa, una idea de ti mismo. Nombrarlo es el primer paso para que deje de pesar en silencio. Pregúntate qué aprendiste de ese cierre y qué queda en pie.</p>
+<h2>2. ¿Quién me sostuvo y quién me agotó?</h2>
+<p>Haz un mapa simple de tus relaciones: familia, trabajo, amistades, grupos digitales. Marca a quién acudes cuando las cosas van mal y qué vínculos te quitan más energía de la que te dan. Muchas veces el agotamiento no viene del trabajo, sino de conversaciones pendientes.</p>
+<h2>3. ¿Qué emoción se repitió más?</h2>
+<p>Rabia, tristeza, ansiedad, culpa. No para juzgarla, sino para entender qué estaba protegiendo. Una emoción que se repite suele señalar una necesidad que no estás atendiendo.</p>
+<h2>4. ¿Qué tres cosas de verdad quiero defender en 2027?</h2>
+<p>No veinte: tres. Convierte cada una en una decisión concreta para los primeros 90 días. "Cuidar mi salud" no es una decisión; "caminar 20 minutos tres veces por semana desde el 10 de enero" sí lo es.</p>
+<h2>5. ¿Cuánto de mi descanso se lo llevó la pantalla?</h2>
+<p>El agotamiento digital se confunde con vacío. Revisa tu tiempo de pantalla de la última semana y elige un espacio del día que vuelva a ser tuyo, sin celular.</p>
+<p>Si al responder sientes que hay más de lo que puedes ordenar solo, no es debilidad: es una señal de que vale la pena hacerlo acompañado.</p>
+{CRISIS}
+{VCS_CALL}
+""", "vcs")
 
 article("programa-de-juego-responsable-resolucion-22654",
  "Programa de Juego Responsable: qué exige la Resolución 22654 de 2024 y cómo capacitar a tu equipo",
@@ -545,7 +595,7 @@ PAGES.append(page("blog", "Artículos sobre salud mental, ludopatía y bienestar
     "Artículos de un psicólogo con enfoque sistémico: ludopatía, agotamiento digital, bienestar emocional y familia.", blog_body))
 
 # sitemap + robots
-urls = [f"{BASE}/"] + PAGES
+urls = [f"{BASE}/", f"{BASE}/diplomado/"] + PAGES
 with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
     for u in urls:
