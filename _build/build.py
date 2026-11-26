@@ -653,7 +653,7 @@ PAGES.append(page("afiliados", "Programa de afiliados · Cursos de salud mental 
     "Gana hasta el 60 % por recomendar cursos de salud mental dictados por un psicólogo: Vida Con-Sentido y el curso certificado de ludopatía. Afiliación por Hotmart.", afil_body))
 
 # ---------------------------------------------------------------- CONCURSO DOCENTE ORIENTADOR
-CON_MSG = "Hola Fredy, quiero postularme a uno de los 5 cupos gratuitos de evaluador del curso Concursa (concurso de docente orientador)."
+CON_MSG = "Hola Fredy, quiero postularme a uno de los 5 cupos de evaluador del curso Concursa (concurso de docente orientador)."
 con_ld = """<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"Concursa: preparación para el concurso de docente orientador","description":"Curso online de 120 horas con certificado para preparar el concurso de ingreso a la carrera docente en el cargo de docente orientador en Colombia.","inLanguage":"es","provider":{"@type":"Person","name":"Fredy Moreno Quintero","jobTitle":"Psicólogo y docente orientador"},"offers":{"@type":"Offer","price":"80000","priceCurrency":"COP","category":"Paid"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT120H"}}</script>"""
 con_body = f"""
 <section class="hero"><div class="wrap hero-grid">
@@ -665,11 +665,11 @@ con_body = f"""
   </div>
   <aside class="offer" aria-label="Cupos fundadores">
     <div class="offer-body">
-      <span class="flag">5 cupos gratuitos · evaluadores fundadores</span>
-      <div class="price"><s>80.000</s> Gratis</div>
-      <p class="price-sub">Buscamos 5 aspirantes al concurso que tomen el curso completo sin costo y, al terminar, lo evalúen con un formulario corto y una opinión honesta.</p>
+      <span class="flag">5 cupos para evaluadores fundadores</span>
+      <div class="price"><s>80.000</s> 2.400 <span class="cur">COP</span></div>
+      <p class="price-sub">Buscamos 5 aspirantes al concurso que tomen el curso completo con 97 % de descuento (2.400 COP, el mínimo que permite la plataforma de pago) y, al terminar, lo evalúen con un formulario corto y una opinión honesta.</p>
       <div class="offer-ctas"><a class="btn btn-accent btn-lg" href="{wa(CON_MSG)}">Postularme como evaluador</a></div>
-      <p class="offer-note">Postúlate por WhatsApp. Cuando se completen los 5 cupos, el curso sigue a su precio normal de 80.000 COP.</p>
+      <p class="offer-note">Postúlate por WhatsApp y te enviamos tu código personal. Cuando se completen los 5 cupos, el curso sigue a su precio normal de 80.000 COP.</p>
     </div>
   </aside>
 </div></section>
@@ -687,19 +687,19 @@ con_body = f"""
   <h2>Requisitos generales del concurso</h2>
   <p>Ser ciudadano colombiano sin inhabilidades y tener título de licenciado o de otra profesión con formación pedagógica (por ejemplo, 100 horas de pedagogía o 4 créditos universitarios en pedagogía). Los títulos exactos para cada cargo se publican en la Oferta Pública de Empleos de Carrera (OPEC) de la CNSC; revisa siempre la convocatoria oficial.</p>
   <h2>Cupos gratuitos para evaluadores fundadores</h2>
-  <p>Antes de abrir el curso al público queremos que lo prueben personas que de verdad se están preparando para el concurso. Por eso ofrecemos <b>5 cupos completamente gratuitos</b>.</p>
+  <p>Antes de abrir el curso al público queremos que lo prueben personas que de verdad se están preparando para el concurso. Por eso ofrecemos <b>5 cupos con 97 % de descuento</b>: pagas 2.400 COP en lugar de 80.000, el mínimo que permite la plataforma de pago.</p>
   <ul>
     <li><b>Qué recibes:</b> acceso completo al curso de 120 horas, a la plataforma en línea y a la app, y el certificado al terminar.</li>
     <li><b>Qué te pedimos:</b> terminar el curso y, al final, responder un formulario de evaluación (contenido, claridad, utilidad para la prueba) y dejar una opinión honesta, positiva o negativa.</li>
     <li><b>Quién puede postularse:</b> aspirantes al cargo de docente orientador (psicólogos, psicopedagogos, trabajadores sociales, licenciados con énfasis en orientación u otros perfiles afines).</li>
     <li><b>Cómo se eligen:</b> por orden de postulación y perfil, hasta completar los 5 cupos.</li>
   </ul>
-  <div class="callout"><b>5 cupos gratuitos para evaluadores</b>Curso de 120 horas con certificado, a cambio de tu evaluación honesta al terminar.<br><a class="btn btn-primary" href="{wa(CON_MSG)}">Postularme por WhatsApp</a></div>
+  <div class="callout"><b>5 cupos para evaluadores: 2.400 COP</b>Curso de 120 horas con certificado, a cambio de tu evaluación honesta al terminar.<br><a class="btn btn-primary" href="{wa(CON_MSG)}">Postularme por WhatsApp</a></div>
   <p class="muted">Fechas tomadas de noticias de septiembre de 2026 (RCN Radio, RTVC); el cronograma oficial lo publica la CNSC.</p>
 </div></section>
 """
 PAGES.append(page("concurso-docente-orientador", "Concurso docente orientador 2027: qué estudiar y curso de preparación · Fredy Moreno",
-    "Prepara el concurso de docente orientador: fechas esperadas, qué estudiar y curso de 120 horas con certificado. 5 cupos gratuitos para evaluadores fundadores.", con_body, "website", None, con_ld, CON_MSG))
+    "Prepara el concurso de docente orientador: fechas esperadas, qué estudiar y curso de 120 horas con certificado. 5 cupos para evaluadores con 97 % de descuento.", con_body, "website", None, con_ld, CON_MSG))
 
 # render articles
 for a in ARTICLES:
