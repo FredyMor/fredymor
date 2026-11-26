@@ -652,6 +652,47 @@ afil_body = f"""
 PAGES.append(page("afiliados", "Programa de afiliados · Cursos de salud mental en Hotmart · Fredy Moreno",
     "Gana hasta el 60 % por recomendar cursos de salud mental dictados por un psicólogo: Vida Con-Sentido y el curso certificado de ludopatía. Afiliación por Hotmart.", afil_body))
 
+# ---------------------------------------------------------------- CONCURSO DOCENTE ORIENTADOR
+CON_MSG = "Hola Fredy, quiero uno de los 5 cupos fundadores del curso Concursa para el concurso de docente orientador."
+con_ld = """<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"Concursa: preparación para el concurso de docente orientador","description":"Curso online de 120 horas con certificado para preparar el concurso de ingreso a la carrera docente en el cargo de docente orientador en Colombia.","inLanguage":"es","provider":{"@type":"Person","name":"Fredy Moreno Quintero","jobTitle":"Psicólogo y docente orientador"},"offers":{"@type":"Offer","price":"80000","priceCurrency":"COP","category":"Paid"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT120H"}}</script>"""
+con_body = f"""
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <p class="eyebrow">Concurso docente 2026–2027 · Docente orientador</p>
+    <h1 style="margin-top:16px">Prepárate para el concurso de <em>docente orientador</em> con quien ya hace el trabajo.</h1>
+    <p class="lead">Las inscripciones del concurso docente se esperan entre enero y febrero de 2027 y la prueba escrita en el segundo semestre de 2027, con más de 28.000 vacantes que incluyen docentes orientadores. Quien empieza a estudiar ahora llega con ventaja.</p>
+    <ul class="facts"><li>120 horas certificadas</li><li>Plataforma en línea y app</li><li>Dictado por un docente orientador en ejercicio</li><li>A tu ritmo</li></ul>
+  </div>
+  <aside class="offer" aria-label="Cupos fundadores">
+    <div class="offer-body">
+      <span class="flag">Solo 5 cupos fundadores</span>
+      <div class="price"><s>80.000</s> 40.000 <span class="cur">COP</span></div>
+      <p class="price-sub">Precio fundador: 50 % menos para las 5 primeras personas. A cambio, al terminar, nos das tu opinión honesta del curso.</p>
+      <div class="offer-ctas"><a class="btn btn-accent btn-lg" href="{wa(CON_MSG)}">Quiero mi cupo fundador</a></div>
+      <p class="offer-note">Escríbeme por WhatsApp y te confirmo si aún hay cupo. Cuando se llenen los 5, el curso vuelve a su precio normal de 80.000 COP.</p>
+    </div>
+  </aside>
+</div></section>
+<section class="section tint"><div class="wrap narrow">
+  <h2 style="margin-top:0">¿Qué hace un docente orientador y por qué es un cargo distinto?</h2>
+  <p>El docente orientador pertenece a la planta docente, pero su trabajo no es dictar una asignatura: acompaña el bienestar, la convivencia y el desarrollo integral de los estudiantes, articula las rutas de atención con familias e instituciones y apoya la orientación vocacional. Por eso la prueba y la entrevista exigen dominar normas, protocolos y casos reales de convivencia escolar.</p>
+  <h2>Lo que necesitas preparar</h2>
+  <ul>
+    <li><b>Marco normativo:</b> convivencia escolar, rutas de atención integral, protección de niños, niñas y adolescentes.</li>
+    <li><b>Funciones del docente orientador</b> y su relación con el comité de convivencia, la familia y las entidades externas.</li>
+    <li><b>Casos y situaciones:</b> cómo responder preguntas de análisis de caso, que son las que más pesan.</li>
+    <li><b>Competencias socioemocionales</b> y orientación vocacional.</li>
+    <li><b>Estrategia de prueba:</b> lectura de enunciados, descarte de opciones y manejo del tiempo.</li>
+  </ul>
+  <h2>Requisitos generales del concurso</h2>
+  <p>Ser ciudadano colombiano sin inhabilidades y tener título de licenciado o de otra profesión con formación pedagógica (por ejemplo, 100 horas de pedagogía o 4 créditos universitarios en pedagogía). Los títulos exactos para cada cargo se publican en la Oferta Pública de Empleos de Carrera (OPEC) de la CNSC; revisa siempre la convocatoria oficial.</p>
+  <div class="callout"><b>Cupos fundadores: 5 personas, 40.000 COP</b>Curso de 120 horas con certificado, acceso a la plataforma en línea y a la app. Precio fundador a cambio de tu opinión honesta al terminar.<br><a class="btn btn-primary" href="{wa(CON_MSG)}">Reservar por WhatsApp</a></div>
+  <p class="muted">Fechas tomadas de noticias de septiembre de 2026 (RCN Radio, RTVC); el cronograma oficial lo publica la CNSC.</p>
+</div></section>
+"""
+PAGES.append(page("concurso-docente-orientador", "Concurso docente orientador 2027: qué estudiar y curso de preparación · Fredy Moreno",
+    "Prepara el concurso de docente orientador: fechas esperadas, qué estudiar y curso de 120 horas con certificado. 5 cupos fundadores a mitad de precio.", con_body, "website", None, con_ld, CON_MSG))
+
 # render articles
 for a in ARTICLES:
     url = f"{BASE}/blog/{a['slug']}/"
